@@ -1,0 +1,32 @@
+{
+  "consoles": [
+    {
+      "nombreCorto": "gb",
+      "nombreLargo": "Nintendo Game Boy",
+      "tipoRoms": [
+        ".bs", ".BS", ".cgb", ".CGB",
+        ".dmg", ".DMG", ".gb", ".GB",
+        ".gbc", ".GBC", ".sgb", ".SGB",
+        ".sfc", ".SFC", ".smc", ".SMC",
+        ".7z", ".7Z", ".zip", ".ZIP"
+      ],
+      "emuladores": [
+        {
+          "id": "retroarch",
+          "nombre": "Retroarch",
+          "tipoRuta": "path",
+          "comandos": [
+            {
+              "descripcion": "Gambatte core",
+              "comando": "com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg -e LIBRETRO /data/user/0/com.retroarch/cores/gambatte_libretro_android.so -e ROM %ROM%"
+            },
+            {
+              "descripcion": "SameBoy core",
+              "comando": "com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg -e LIBRETRO sameboy_libretro_android.so -e ROM %ROM%"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

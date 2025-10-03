@@ -13,11 +13,15 @@ For now, it is recommended to set it as your **home screen only in controlled te
   `/storage/emulated/0/Android/media/com.lairlauncher/LairLauncher/assets/roms`).  
   The application will create these folders if they don’t exist.  
 
+- **APPs:** Place custom icons inside `LairLauncher/assets/android` in any external media directory created by Android for the app (e.g.,  
+  `/storage/emulated/0/Android/media/com.lairlauncher/LairLauncher/assets/android`).  
+  The application will create these folders if they don’t exist.  
+
 - **Platforms:** Icons and backgrounds for each system are stored in `LairLauncher/assets/platforms`, accessible from both `externalMediaDirs` and the legacy path:  
   `Android/media/com.lairlauncher/LairLauncher/assets/platforms`.
 
 ### 2.2. Recommended Naming Convention
-- Use **PNG or JPG** files. For each ROM, name the icon as `<sanitized_name>_X.png` (or `.jpg`), where **X** is:
+- Use **PNG or JPG** files. For each ROM or App, name the icon as `<sanitized_name>_X.png` (or `.jpg`), where **X** is:
   - `_icon` → Icon displayed on the main screen  
   - `_slide_Y` → Images for the gallery, where **Y** is the index (1, 2, 3 …)  
   - `_hero_Y` → Background images for the top screen, where **Y** is the index (1, 2, 3 …)  
