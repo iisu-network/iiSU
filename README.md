@@ -84,74 +84,7 @@ Visibility is saved **per tab**, so each view keeps its own selection.
 
 These cores in Retroarch are supported with custom per-ROM launch commands, layout behavior, and some with artwork mapping (as of the latest build):
 
-- 3do
-- amiga
-- arcade
-- atari2600
-- atari5200
-- atari7800
-- atari800
-- atarijaguar
-- atarilynx
-- atomiswave
-- c64
-- channelf
-- colecovision
-- cps1
-- cps2
-- cps3
-- dreamcast
-- famicom
-- fba
-- fbneo
-- gameandwatch
-- gamegear
-- gba
-- gbc
-- genesis
-- gw
-- intellivision
-- mame
-- mastersystem
-- megadrive
-- msx
-- msx2
-- naomi
-- nds
-- neogeo
-- neogeocd
-- nes
-- nintendo64
-- nintendobs
-- odyssey2
-- openbor
-- pcengine
-- pcenginecd
-- pce
-- ps1
-- ps2
-- psp
-- saturn
-- sega32x
-- segacd
-- segamastersystem
-- sega_md
-- sega_saturn
-- sg1000
-- snes
-- supergrafx
-- tg16
-- tgcd
-- uzebox
-- vectrex
-- virtualboy
-- wii
-- wiiu
-- wonderswan
-- wonderswancolor
-- x68000
-- xbox
-- zxspectrum
+- 3do,amiga,arcade,atari2600,atari5200,atari7800,atari800,atarijaguar,atarilynx,atomiswave,c64,channelf,colecovision,cps1,cps2,cps3,dreamcast,famicom,fba,fbneo,gameandwatch,gamegear,gba,gbc,genesis,gw,intellivision,mame,mastersystem,megadrive,msx,msx2,naomi,nds,neogeo,neogeocd,nes,nintendo64,nintendobs,odyssey2,openbor,pcengine,pcenginecd,pce,ps1,ps2,psp,saturn,sega32x,segacd,segamastersystem,sega_md,sega_saturn,sg1000,snes,supergrafx,tg16,tgcd,uzebox,vectrex,virtualboy,wii,wonderswan,wonderswancolor,x68000,xbox,zxspectrum
 
 Other cores and emulator definitions will be added in future versions.
 
