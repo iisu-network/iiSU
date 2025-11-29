@@ -1,4 +1,4 @@
-# 🚀 Quick Start Guide for iiSU DS
+# Quick Start Guide for iiSU DS
 
 ## 1. Before You Begin
 iiSU DS is currently in an **early Alpha stage**, focused on building the technical foundation of the launcher for future iterations.  
@@ -37,7 +37,7 @@ For now, it is recommended to set it as your **home screen only in controlled te
   - **List background:** `<platform>_list.png`  
   - **Selected list background:** `<platform>_list_selected.png`  
 
-💡 *Note: The repo includes a `iiSULauncher` folder containing the minimum required assets for configuration.*
+*Note: The repo includes a `iiSULauncher` folder containing the minimum required assets for configuration.*
 
 ---
 
@@ -96,7 +96,7 @@ iiSU Launcher now supports [RetroAchievements](https://retroachievements.org)!
 
 To enable it, you'll need your **RetroAchievements username** and **Web API Key**.
 
-#### 🔑 How to get your Web API Key:
+#### How to get your Web API Key:
 1. Log into [RetroAchievements.org](https://retroachievements.org).
 2. Go to your profile settings.
 3. Scroll down to the **Web API Key** section and copy it.
@@ -111,7 +111,7 @@ Once you've configured your credentials in iiSU DS, the following will happen:
 
 You can view the available achievements at any time by pressing **X** or **Y** on your controller (depending on your button layout).
 
-⚠️ For best performance, avoid requesting achievements for too many games at once. Achievement fetching is currently manual and per-ROM, but **batch fetching and automation will be added soon.**
+For best performance, avoid requesting achievements for too many games at once. Achievement fetching is currently manual and per-ROM, but **batch fetching and automation will be added soon.**
 
 ---
 
