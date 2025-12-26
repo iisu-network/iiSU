@@ -5,11 +5,11 @@ Beyond the app itself, the iiSU team is working to deliver web services while fu
 
 ## Install & Updates
 
-- **Obtainium:**
-  [Add to Obtainium](https://apps.obtainium.imranr.dev/redirect.html?r=obtainium://add/https://github.com/iisu-network/iiSU)
-
 - **Manual download:**  
   Download the APK from the [Releases page](https://github.com/iisu-network/iiSU/releases)
+
+- **Obtainium:**
+  [Add to Obtainium](https://apps.obtainium.imranr.dev/redirect.html?r=obtainium://add/https://github.com/iisu-network/iiSU)
 
 
 ## Quick Start Guide
