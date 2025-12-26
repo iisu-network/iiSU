@@ -1,14 +1,28 @@
-# Quick Start Guide for iiSU
+# iiSU
+iiSU is an upcoming emulation frontend, being developed Android-first. You can think of a "frontend" such as iiSU similarly to a home screen launcher, built to organize your apps/games in an aesthetically pleasing way (which also means it is NOT an emulator and does not come with games!).
 
-## 1. Before You Begin
+Beyond the app itself, the iiSU team is working to deliver web services while fueling a community-wide effort to enhance the emulation scene with stylish assets and designs that reach beyond the core app
+
+## Install & Updates
+
+- **Obtainium:**
+  [Add to Obtainium](https://apps.obtainium.imranr.dev/redirect.html?r=obtainium://add/https://github.com/iisu-network/iiSU)
+
+- **Manual download:**  
+  Download the APK from the [Releases page](https://github.com/iisu-network/iiSU/releases)
+
+
+## Quick Start Guide
+
+### 1. Before You Begin
 iiSU is currently in an **early Alpha stage**, focused on building the technical foundation of the launcher for future iterations.  
 For now, it is recommended to set it as your **home screen only in controlled test scenarios**.
 
 ---
 
-## 2. Preparing Your Asset Library
+### 2. Preparing Your Asset Library
 
-### 2.1. Paths and Folder Structure
+#### 2.1. Paths and Folder Structure
 - **ROMs:** Place custom icons inside `iiSULauncher/assets/media/roms/consoles/<console_name>/<rom_name>/` in any external media directory created by Android for the app (e.g.,  
   `/storage/emulated/0/Android/media/com.iisulauncher/iiSULauncher/assets/media/roms/consoles/<console_name>/<rom_name>/`).  
   The application will create these folders if they don’t exist.  
@@ -23,7 +37,7 @@ For now, it is recommended to set it as your **home screen only in controlled te
 - **Themes:** Backgrounds and video backgrounds for themes (each folder inside Themes is a theme) are stored in: 
   `/storage/emulated/0/Android/media/com.iisulauncher/iiSULauncher/assets/Themes/`.
 
-### 2.2. Recommended Naming Convention
+#### 2.2. Recommended Naming Convention
 - Use **PNG or JPG** files. For each ROM or App, name the icon as:
   - `icon` → Icon displayed on the main screen.
   - `slide_Y` → Images for the gallery, where **Y** is the index (1, 2, 3 …).
@@ -44,7 +58,7 @@ For now, it is recommended to set it as your **home screen only in controlled te
 
 ---
 
-## 3. First Launch and Shortcuts
+### 3. First Launch and Shortcuts
 In the welcome screen, you will be guided through the iiSU setup. If you had a previous version, it is strongly advised to install this new one (just back up your image data beforehand).
 
 In the **Home** section you’ll find the quick-access grid.  
@@ -59,14 +73,14 @@ This preference is saved **persistently** in the launcher’s configuration.
 
 ---
 
-## 4. Choosing Where to Launch Each App or ROM
+### 4. Choosing Where to Launch Each App or ROM
 When launching an app or ROM for the first time, a dialog will appear asking you to choose a screen (**this screen or the other screen**) and whether to **remember your selection**.  
 
 In the apps setting you can also manage shortcuts and app linking.
 
 ---
 
-## 5. Organizing the Apps, Games, and Emulators Tabs
+### 5. Organizing the Apps, Games, and Emulators Tabs
 The three main tabs (**APPS, GAMES, EMULATORS**).  
 
 To customize:
@@ -77,19 +91,19 @@ Visibility is saved **per tab**, so each view keeps its own selection.
 
 ---
 
-### 6. Supported Emulators
+#### 6. Supported Emulators
 
 We support almost all emulators!, if you find an emulator that is not working, please fill a bug and we will fix it!
 
 ---
 
-### 7. RetroAchievements Integration
+#### 7. RetroAchievements Integration
 
 iiSU supports [RetroAchievements](https://retroachievements.org)!
 
 To enable it, you'll need your **RetroAchievements username** and **Web API Key**.
 
-#### How to get your Web API Key:
+##### How to get your Web API Key:
 1. Log into [RetroAchievements.org](https://retroachievements.org).
 2. Go to your profile settings.
 3. Scroll down to the **Web API Key** section and copy it.
@@ -106,13 +120,13 @@ You can view the available achievements at any time by pressing **X** or **Y** o
 
 For best performance, avoid requesting achievements for too many games at once. Achievement fetching is currently manual, you can preload all in the welcome screen.
 
-### 8. IGDB Integration
+#### 8. IGDB Integration
 
 iiSU supports [IGDB](https://www.igdb.com/)!
 
 To enable it, you'll need your **Client id** and **Client secret**.
 
-#### How to get your credentials from (https://api-docs.igdb.com/#getting-started):
+##### How to get your credentials from (https://api-docs.igdb.com/#getting-started):
 - Sign Up with [Twitch](https://dev.twitch.tv/login) for a free account
 - Ensure you have Two Factor Authentication [enabled](https://www.twitch.tv/settings/security)
 - Register your application in the [Twitch Developer Portal](https://dev.twitch.tv/console/apps/create)
@@ -134,7 +148,7 @@ Once you've configured your credentials in iiSU, the following will happen:
 
 ---
 
-## 8. Project Status
+### 8. Project Status
 Remember: **iiSU** is aimed at testing on dual-screen and single screen hardware.  
 Please use it as a **testbed**, report bugs, and share feedback or features you’d like to see before considering it ready for daily use.
 
