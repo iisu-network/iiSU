@@ -3,13 +3,8 @@ iiSU is an upcoming emulation frontend, being developed Android-first. You can t
 
 Beyond the app itself, the iiSU team is working to deliver web services while fueling a community-wide effort to enhance the emulation scene with stylish assets and designs that reach beyond the core app
 
-## Install & Updates
-
-- **Manual download:**  
+## Install & Updates  
   Download the APK from the [Releases page](https://github.com/iisu-network/iiSU/releases)
-
-- **Obtainium:**
-  [Add to Obtainium](https://apps.obtainium.imranr.dev/redirect.html?r=obtainium://add/https://github.com/iisu-network/iiSU)
 
 
 ## Quick Start Guide
