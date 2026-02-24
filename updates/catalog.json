@@ -1,0 +1,26 @@
+{
+  "catalogVersion": 1,
+  "generatedAt": "2026-02-23T00:00:00Z",
+  "artifacts": {
+    "apk": {
+      "version": "0.0.5.0",
+      "releasePageUrl": "https://github.com/iisu-network/iiSU/releases/tag/v0.0.5.0"
+    },
+    "starter_pack": {
+      "version": "0.0.1",
+      "releasePageUrl": "https://github.com/iisu-network/iiSU/releases/tag/starter-v0.0.1"
+    },
+    "emuladores_json": {
+      "version": "0.0.1",
+      "releasePageUrl": "https://github.com/iisu-network/iiSU/releases/tag/emuladores-v0.0.1"
+    },
+    "supported_emulators_json": {
+      "version": "0.0.1",
+      "releasePageUrl": "https://github.com/iisu-network/iiSU/releases/tag/supported-emulators-v0.0.1"
+    },
+    "emulator_options_json": {
+      "version": "0.0.1",
+      "releasePageUrl": "https://github.com/iisu-network/iiSU/releases/tag/emulator-options-v0.0.1"
+    }
+  }
+}
