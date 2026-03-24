@@ -37,13 +37,13 @@ Beyond the app itself, the iiSU team is working to deliver web services while fu
   <img 
     src="https://github.com/iisu-network/iiSU/blob/main/.github/assets/SingleScreen_Demo.png?raw=true"
     alt="iiSU Single Screen Demo"
-    height="400"
+    height="300"
     style="max-width: 50%;"
   />
   <img 
     src="https://github.com/iisu-network/iiSU/blob/main/.github/assets/DualScreen_Demo.png?raw=true"
     alt="iiSU Dual Screen Demo"
-    height="400"
+    height="300"
     style="max-width: 50%;"
   />
 </p>
