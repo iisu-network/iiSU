@@ -1,103 +1,140 @@
+<p align="center">
+  <img 
+    src="https://raw.githubusercontent.com/iisu-network/iiSU/a5012c3066d6db158909bdec78b7c655da0d789a/.github/assets/iiSU_Logo.svg"
+    alt="iiSU Logo"
+    width="60%"
+    style="max-width: 300px;"
+  />
+</p>
+
+<h3 align="center">The visuals-first emulation frontend</h3>
+
+<p align="center">
+  <a href="https://github.com/iisu-network/iiSU/releases"><img src="https://img.shields.io/github/v/release/iisu-network/iiSU?label=latest&color=7c3aed" alt="Latest Release"/></a>
+  <a href="https://discord.com/invite/iisu"><img src="https://img.shields.io/discord/1072873391855501312?label=discord&logo=discord&color=5865F2" alt="Discord"/></a>
+  <a href="https://ko-fi.com/iisunetwork"><img src="https://img.shields.io/badge/support-ko--fi-FF5E5B?logo=kofi" alt="Ko-fi"/></a>
+</p>
+
+<p align="center">
+  <a href="https://discord.gg/iisu">Discord</a> ·
+  <a href="https://iisu.network">Website</a> ·
+  <a href="https://github.com/iisu-network/iiSU/releases">Download</a> ·
+  <a href="https://iisu.network/faq">FAQ</a>
+</p>
+
+---
+
 # iiSU
-iiSU is an upcoming emulation frontend, being developed Android-first. You can think of a "frontend" such as iiSU similarly to a home screen launcher, built to organize your apps/games in an aesthetically pleasing way (which also means it is NOT an emulator and does not come with games!).
+iiSU is an emulation frontend in alpha, being developed Android-first. A frontend effectively replaces your home screen launcher with a UI fit to display and launch your games and apps beautifully.
 
-Beyond the app itself, the iiSU team is working to deliver web services while fueling a community-wide effort to enhance the emulation scene with stylish assets and designs that reach beyond the core app
+> [!WARNING]
+> iiSU is a **frontend**, not an emulator - it does **not include games or emulators**.
 
-## Install & Updates  
-  Download the APK from the [Releases page](https://github.com/iisu-network/iiSU/releases)
+Beyond the app itself, the iiSU team is working to deliver web services while fueling a community-wide effort to enhance the emulation scene with stylish assets and designs that reach beyond the core app.
 
-[<img src="https://raw.githubusercontent.com/ImranR98/Obtainium/refs/heads/main/assets/graphics/badge_obtainium.png"
-     alt="Get it on Obtainium"
-     height="55"
-     style="border: 13px solid transparent;">](http://apps.obtainium.imranr.dev/redirect.html?r=obtainium://app/%7B%22id%22%3A%22com.iisulauncher%22%2C%22url%22%3A%22https%3A%2F%2Fgithub.com%2Fiisu-network%2FiiSU%22%2C%22author%22%3A%22iisu-network%22%2C%22name%22%3A%22iiSU%22%2C%22otherAssetUrls%22%3Anull%2C%22apkUrls%22%3Anull%2C%22preferredApkIndex%22%3A0%2C%22additionalSettings%22%3A%22%7B%5C%22includePrereleases%5C%22%3Afalse%2C%5C%22fallbackToOlderReleases%5C%22%3Atrue%2C%5C%22filterReleaseTitlesByRegEx%5C%22%3A%5C%22%5C%22%2C%5C%22filterReleaseNotesByRegEx%5C%22%3A%5C%22%5C%22%2C%5C%22verifyLatestTag%5C%22%3Afalse%2C%5C%22sortMethodChoice%5C%22%3A%5C%22date%5C%22%2C%5C%22useLatestAssetDateAsReleaseDate%5C%22%3Afalse%2C%5C%22releaseTitleAsVersion%5C%22%3Afalse%2C%5C%22github-creds%5C%22%3A%5C%22%5C%22%2C%5C%22GHReqPrefix%5C%22%3A%5C%22%5C%22%2C%5C%22trackOnly%5C%22%3Afalse%2C%5C%22versionExtractionRegEx%5C%22%3A%5C%22%5C%22%2C%5C%22matchGroupToUse%5C%22%3A%5C%22%5C%22%2C%5C%22versionDetection%5C%22%3Atrue%2C%5C%22releaseDateAsVersion%5C%22%3Afalse%2C%5C%22useVersionCodeAsOSVersion%5C%22%3Afalse%2C%5C%22apkFilterRegEx%5C%22%3A%5C%22%5C%22%2C%5C%22invertAPKFilter%5C%22%3Afalse%2C%5C%22autoApkFilterByArch%5C%22%3Atrue%2C%5C%22appName%5C%22%3A%5C%22iiSU%5C%22%2C%5C%22appAuthor%5C%22%3A%5C%22%5C%22%2C%5C%22shizukuPretendToBeGooglePlay%5C%22%3Afalse%2C%5C%22allowInsecure%5C%22%3Afalse%2C%5C%22exemptFromBackgroundUpdates%5C%22%3Afalse%2C%5C%22skipUpdateNotifications%5C%22%3Afalse%2C%5C%22about%5C%22%3A%5C%22Game%20launcher%20frontend%5C%22%2C%5C%22refreshBeforeDownload%5C%22%3Afalse%2C%5C%22includeZips%5C%22%3Afalse%2C%5C%22zippedApkFilterRegEx%5C%22%3A%5C%22%5C%22%7D%22%2C%22categories%22%3A%5B%22Frontend%22%5D%2C%22overrideSource%22%3A%22GitHub%22%2C%22allowIdChange%22%3Afalse%7D)
+## Showcase
+<p align="center">
+  <img 
+    src="https://github.com/iisu-network/iiSU/blob/main/.github/assets/SingleScreen_Demo.png?raw=true"
+    alt="iiSU Single Screen Demo"
+    height="400"
+    style="max-width: 50%;"
+  />
+  <img 
+    src="https://github.com/iisu-network/iiSU/blob/main/.github/assets/DualScreen_Demo.png?raw=true"
+    alt="iiSU Dual Screen Demo"
+    height="400"
+    style="max-width: 50%;"
+  />
+</p>
 
+## Install & Updates
+Download the latest APK from the [Releases page](https://github.com/iisu-network/iiSU/releases).
+
+iiSU includes a built-in updater, but you can also keep it up to date using Obtainium:
+
+<p align="center">
+  <a href="http://apps.obtainium.imranr.dev/redirect.html?r=obtainium://app/%7B%22id%22%3A%22com.iisulauncher%22%2C%22url%22%3A%22https%3A%2F%2Fgithub.com%2Fiisu-network%2FiiSU%22%2C%22author%22%3A%22iisu-network%22%2C%22name%22%3A%22iiSU%22%7D">
+    <img 
+      src="https://raw.githubusercontent.com/ImranR98/Obtainium/refs/heads/main/assets/graphics/badge_obtainium.png"
+      alt="Get it on Obtainium"
+      height="55"
+    />
+  </a>
+</p>
+
+---
 
 ## Quick Start Guide
 
 ### 1. Before You Begin
 iiSU is currently in an **early Alpha stage**, focused on building the technical foundation of the launcher for future iterations.  
-For now, it is recommended to set it as your **home screen only in controlled test scenarios**.
+Bugs and issues will exist, please report them to the team at https://github.com/iisu-network/iiSU/issues
+This guide covers the essentials to get iiSU up and running quickly.  
+For help, issues, or questions, join our [Discord](https://discord.com/invite/iisu).
 
 ---
 
-### 2. Preparing Your Asset Library
+### 2. First Launch and Shortcuts
+On your first launch of iiSU, you'll be welcomed with the **interactive onboarding**. This is where you'll be prompted to choose your main settings, configs and home menu shortcuts for iiSU. It's also where you'll be able to optionally **generate retroachievement hashes**, do an **initial library scrape**, **link ES-DE Metadata**, and **pre-cache** your library.
 
-#### 2.1. Paths and Folder Structure
-- **ROMs:** Place custom icons inside `iiSULauncher/assets/media/roms/consoles/<console_name>/<rom_name>/` in any external media directory created by Android for the app (e.g.,  
-  `/storage/emulated/0/Android/media/com.iisulauncher/iiSULauncher/assets/media/roms/consoles/<console_name>/<rom_name>/`).  
-  The application will create these folders if they don’t exist.  
+> [!TIP]
+> You can skip any of these, and do any of these actions at any time from iiSU. Onboarding just gives you an easy flow to get you setup quickly.
+> You can also **relaunch onboarding** at any time
 
-- **APPs:** Place custom icons inside `iiSULauncher/assets/media/android/apps/<app_package>/` in any external media directory created by Android for the app:  
-  `/storage/emulated/0/Android/media/com.iisulauncher/iiSULauncher/assets/media/android/apps/<app_package>/`.  
-  The application will create these folders if they don’t exist.  
+Below is a brief overview of each step of onboarding
 
-- **Platforms:** Icons and backgrounds for each system are stored in `iiSULauncher/assets/platforms`, in any external media directory created by Android for the app:
-  `/storage/emulated/0/Android/media/com.iisulauncher/iiSULauncher/assets/platforms`.
-
-- **Themes:** Backgrounds and video backgrounds for themes (each folder inside Themes is a theme) are stored in: 
-  `/storage/emulated/0/Android/media/com.iisulauncher/iiSULauncher/assets/Themes/`.
-
-#### 2.2. Recommended Naming Convention
-- Use **PNG or JPG** files. For each ROM or App, name the icon as:
-  - `icon` → Icon displayed on the main screen.
-  - `slide_Y` → Images for the gallery, where **Y** is the index (1, 2, 3 …).
-  - `hero_Y` → Background images for the top screen, where **Y** is the index (1, 2, 3 …).
-  - `title` → Title image for the top screen.
-
-- For platforms you can provide:
-  - **Icon:** `<platform>.png`
-  - **Title:** `<platform>_title.png`  
-  - **List background:** `<platform>_list.png`  
-  - **Selected list background:** `<platform>_list_selected.png`  
-
-- For themes you can provide (in a folder inside Themes):
-  - **Detail Screen background:** `detail_background.png`/`detail_background_dark.png`
-  - **Navigation Screen background:** `home_background.png`/`home_background_dark.png`
-  - **Animated Detail Screen background:** `detail_background.mp4`/`detail_background_dark.mp4`
-  - **Animated Navigation Screen background:** `home_background.mp4`/`home_background_dark.mp4` 
+1) Welcome - This page is a welcome page, welcoming you to iiSU
+2) Dual Screens - If an external display is detected, this page allows you to choose which screen displays what media. You can swap screens at any time by pressing Y.
+3) Customization - In this page, you can choose your default theming colour, browsing style, and a selection of key settings, to get iiSU looking exactly as you'd like it to look, as soon as you launch.
+4) ROM Import - On this page, you can select your ROM folder, and link ES-DE metadata if you're changing frontends. You can also change your iiSU media storage location and check the detected systems. If you have a RomM server, you can link your server here as well. RomM support is currently an **experimental** feature.
+5) Quick Access Apps - This page allows you to choose apps to add to the home page. Apps can be added/removed later!
+6) RetroAchievements Login - If you would like to sync your RetroAchievements, you can connect to your account here. To get your API key, go to https://retroachievements.org/settings and scroll down.
+7) Services - Here you can optionally input keys and sign in data for a host of scraping services to be used in the app
+8) Asset Prep - This page indexes your library and prepares your media.
+9) RetroAchievement Data - In order to show RetroAchievement data, you need to hash your roms. This page allows you to easily hash them!
+10) Scrape Pass - If you would like to perform an initial scrape, you can do this. This isn't required if you have linked your ES-DE Metadata or would not like to scrape just yet
+11) Overview - This page shows a brief overview of what's been setup!
 
 ---
 
-### 3. First Launch and Shortcuts
-In the welcome screen, you will be guided through the iiSU setup. If you had a previous version, it is strongly advised to install this new one (just back up your image data beforehand).
+#### 3. Post-Onboarding:
+Once onboarding is complete, there are a few recommended (but not required) tasks you can do.
+ - Update everything
+    - Open Settings (select), go to iiSU Settings -> Updates, and check for updates.
+    - The key ones to check are for Starter Pack Updates, emuladores, and iiSU updates.
+    - If an update is found, simply install and apply the update!
+ - Swap A/B X/Y
+    - If you want to use a Nintendo-Style layout, head to Settings (select), then iiSU Settings -> Input -> "Swap A/B and X/Y Buttons"
+ - Enable/Disable Dark Mode Icons
+    - To toggle these, head to Settings (select), then iiSU Settings -> Appearance -> Theme Media -> "Use Dark Mode Platform Icons"
+ - Check Console Emulators
+    - If a console isn't launching, check to make sure it is set to use the correct emulator.
+    - You can do this by opening Quick Settings (select) whilst the console is selected, heading to "Console Settings", "Edit Console Settings" and selecting the correct emulator.
+      - One common issue is RetroArch games not launching, please make sure the correct RetroArch version is selected for your device.
+    - Make sure to Update the console in the summary tab once you've done!
 
-In the **Home** section you’ll find the quick-access grid.  
-To pin an app or ROM:
-- Go to the app or ROM you want to pin
-If you are using controlls
-- When the App/ROM is on focus press "Start" and chose "Add to HomePage"
-If you are touch screen
-- Hold the icon, then go back and chose "Add to HomePage"
-
-This preference is saved **persistently** in the launcher’s configuration.
-
----
-
-### 4. Choosing Where to Launch Each App or ROM
-When launching an app or ROM for the first time, a dialog will appear asking you to choose a screen (**this screen or the other screen**) and whether to **remember your selection**.  
-
-In the apps setting you can also manage shortcuts and app linking.
-
----
-
-### 5. Organizing the Apps, Games, and Emulators Tabs
-The three main tabs (**APPS, GAMES, EMULATORS**).  
-
-To customize:
-- Enter edit mode (long-press an app in the corresponding tab) or choose the option "Enable edit mode"
-- Use the **visibility toggle** to hide items you don’t want  
-
-Visibility is saved **per tab**, so each view keeps its own selection.
+> [!TIP]
+> You can set iiSU to replace your device's home screen!
+> Just open Settings, search for "Default Home App" and select iiSU
 
 ---
 
-#### 6. Supported Emulators
+#### 4. Home Menu & Collections
 
-We support almost all emulators!, if you find an emulator that is not working, please fill a bug and we will fix it!
+To add items to the home menu, simply select it, open Quick Settings with select, and press "Add to home page".
+
+From the home menu, you're also able to make collections. To add a ROM to a collection, select the game, press select and press "Add to Collection".
 
 ---
 
-#### 7. RetroAchievements Integration
+#### 5. Supported Emulators
+
+We support almost all emulators on Android! If you find an emulator that is not working, please fill out a github issue and we will fix it as soon as we can.
+
+---
+
+#### 6. RetroAchievements Integration
 
 iiSU supports [RetroAchievements](https://retroachievements.org)!
 
@@ -110,7 +147,7 @@ To enable it, you'll need your **RetroAchievements username** and **Web API Key*
 
 Once you've configured your credentials in iiSU, the following will happen:
 - In the RetroAchievements tab, you’ll see a summary of your recent activity, showing the most recent games where you’ve unlocked achievements, along with your total points and progress.
-- In each platform, you can choose to **start hashing your ROMs** and also fech data from RA to identify them with RetroAchievements.
+- In each platform, you can choose to **start hashing your ROMs** and also fetch data from RA to identify them with RetroAchievements.
 - While hashing, a loading icon will appear in the top-left corner of each ROM.
 - Once a ROM is identified, hovering over it will **trigger a background request** to fetch the list of achievements for that specific game.
   - During this process, you’ll see a loading icon again on that ROM.
@@ -118,38 +155,8 @@ Once you've configured your credentials in iiSU, the following will happen:
 
 You can view the available achievements at any time by pressing **X** or **Y** on your controller (depending on your button layout).
 
-For best performance, avoid requesting achievements for too many games at once. Achievement fetching is currently manual, you can preload all in the welcome screen.
-
-#### 8. IGDB Integration
-
-iiSU supports [IGDB](https://www.igdb.com/)!
-
-To enable it, you'll need your **Client id** and **Client secret**.
-
-##### How to get your credentials from (https://api-docs.igdb.com/#getting-started):
-- Sign Up with [Twitch](https://dev.twitch.tv/login) for a free account
-- Ensure you have Two Factor Authentication [enabled](https://www.twitch.tv/settings/security)
-- Register your application in the [Twitch Developer Portal](https://dev.twitch.tv/console/apps/create)
-- The OAuth Redirect URL field is not used by IGDB. Please add ’localhost’ to continue.
-- The Client Type must be set to Confidential to generate Client Secrets, follow this example:
-<img width="773" height="531" alt="image" src="https://github.com/user-attachments/assets/690afe68-b587-4299-a039-e09553cedbeb" />
-
-- [Manage](https://dev.twitch.tv/console/apps) your newly created application
-<img width="1252" height="47" alt="image" src="https://github.com/user-attachments/assets/2186e316-7d24-4dc0-a298-5c9b7bb96acf" />
-
-- Generate a Client Secret by pressing "New Secret"
-<img width="758" height="182" alt="image" src="https://github.com/user-attachments/assets/48948944-03d8-4726-a8ec-829eb45a3342" />
-
-
-- Take note of the Client ID and Client Secret
-
-
-Once you've configured your credentials in iiSU, the following will happen:
-
 ---
-
-### 8. Project Status
-Remember: **iiSU** is aimed at testing on dual-screen and single screen hardware.  
-Please use it as a **testbed**, report bugs, and share feedback or features you’d like to see before considering it ready for daily use.
-
-- Thanks to the communities of AYANEO, Retroid, OneXPlayer, and everyone contributing feedback through Discord and Patreon.
+> [!IMPORTANT]
+> iiSU is still in Alpha, however it is approaching a Beta release.
+> Bugs can be expected, there's a lot of work behind the scenes making sure it works as smoothly as possible!
+> A huge thank you to the communities of AYN, Anbernic, AYANEO, Retroid, OneXPlayer, and everyone contributing feedback through Discord and Patreon, and the supporters on KoFi. It really goes a long way to motivate the team and help develop and create our shared vision!
