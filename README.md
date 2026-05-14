@@ -102,7 +102,7 @@ Below is a brief overview of each step of onboarding
 Once onboarding is complete, there are a few recommended (but not required) tasks you can do.
  - Update everything
     - Open Settings (select), go to iiSU Settings -> Updates, and check for updates.
-    - The key ones to check are for Starter Pack Updates, emuladores, and iiSU updates.
+    - The key ones to check are for Starter Pack Updates, emulators, and iiSU updates.
     - If an update is found, simply install and apply the update!
  - Swap A/B X/Y
     - If you want to use a Nintendo-Style layout, head to Settings (select), then iiSU Settings -> Input -> "Swap A/B and X/Y Buttons"
